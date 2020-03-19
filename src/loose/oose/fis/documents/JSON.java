@@ -7,6 +7,10 @@ public class JSON extends Document {
         super(continut);
     }
 
+    public void doSomething()
+    {
+        System.out.println("no");
+    }
     @Override
     public String[] analizeaza() {
         String[] res = new String[continut.length];
